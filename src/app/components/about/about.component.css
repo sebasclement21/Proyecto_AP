@@ -1,0 +1,35 @@
+.row{
+    padding: 10px;
+}
+
+div{
+    background-color: #a1b5cb;
+    text-align: center;
+}
+/*Estilos del nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+    font-size: larger;
+}
+/*Estilos de la imagen*/
+@media(min-width:576px){
+    #perfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px gray;
+        left: 2%;
+        top: 550px;
+    }
+}
+@media(max-width:575px){
+    #perfil{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 5px 5px 5px gray;
+        left: 33%;
+        top: 500px;
+    }
+}

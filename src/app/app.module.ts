@@ -12,6 +12,7 @@ import { LaboralComponent } from './components/laboral/laboral.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HySSComponent } from './components/hy-ss/hy-ss.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HySSComponent } from './components/hy-ss/hy-ss.component';
     AboutComponent,
     LaboralComponent,
     EducacionComponent,
-    HySSComponent
+    HySSComponent,
+    ProyectosComponent
   ],
   imports: [
     BrowserModule,

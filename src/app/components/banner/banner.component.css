@@ -2,3 +2,14 @@ img{
     width: 100%;
     height: 500px;
 }
+.row{
+    padding: 0px;
+    border-style: outset;
+    border-radius: 1%;
+    width: 98%;
+    margin-left: 10px;
+}
+div{
+    background-color: black;
+    padding: 10px;
+}

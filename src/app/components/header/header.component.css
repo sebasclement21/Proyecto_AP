@@ -1,5 +1,8 @@
 div{
     background-color: #03203f;
+    width: 99%;
+    border-style: outset;
+    border-radius: 1%;
 }
 app-socials{
     float: right;

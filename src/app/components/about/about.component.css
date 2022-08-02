@@ -1,9 +1,10 @@
 .row{
     padding: 10px;
+    border-style: outset;
+    border-radius: 1%;
 }
 
 div{
-    background-color: #a1b5cb;
     text-align: center;
 }
 /*Estilos del nombre*/
